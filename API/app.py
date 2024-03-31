@@ -1,3 +1,4 @@
+#Время 26:21
 import click
 from flask import Flask, request, render_template
 
