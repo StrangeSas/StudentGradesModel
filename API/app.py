@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def my_form():
-    return render_template('form.html')
+    return render_template('form.html',final_grade=(0,0,0))
 
 @app.route('/', methods=['POST'])
 def my_form_post():
